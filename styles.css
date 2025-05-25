@@ -1,0 +1,160 @@
+/* Custom CSS for a Futuristic Dark Theme with Redesigned Sidebar */
+
+/* General Styles */
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.stHeader {
+    background-color: #1e1e1e;
+    color: #00ffcc;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    border-bottom: 2px solid #00ffcc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Sidebar Styles */
+.stSidebar {
+    background: linear-gradient(145deg, #1e1e1e, #0a0a0a);
+    color: #e0e0e0;
+    padding: 1.5rem;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.3);
+    border-right: 2px solid #00ffcc;
+}
+
+.stSidebar .stMarkdown {
+    color: #e0e0e0;
+    font-size: 1rem;
+}
+
+.stSidebar .stSelectbox div[data-baseweb="select"] {
+    background-color: #333 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #00ffcc !important;
+    border-radius: 8px !important;
+}
+
+.stSidebar .stSelectbox svg {
+    fill: #00ffcc !important;
+}
+
+.stSidebar .stButton button {
+    background-color: #00ffcc;
+    color: #1e1e1e;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.stSidebar .stButton button:hover {
+    background-color: #00ccaa;
+}
+
+/* Main Content Styles */
+.stMarkdown {
+    margin-bottom: 1.5rem;
+}
+
+.stTextInput input, .stTextArea textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    transition: border-color 0.3s ease;
+}
+
+.stTextInput input:focus, .stTextArea textarea:focus {
+    border-color: #00ffcc;
+    outline: none;
+}
+
+.stButton button {
+    background-color: #00ffcc;
+    color: #1e1e1e;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.stButton button:hover {
+    background-color: #00ccaa;
+}
+
+/* Chat Message Styles */
+.stChatMessage {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+.stChatMessage.user {
+    background-color: #00ffcc;
+    color: #1e1e1e;
+    margin-left: auto;
+}
+
+.stChatMessage.ai {
+    background-color: #333;
+    color: #e0e0e0;
+    margin-right: auto;
+}
+
+/* Code Block Styles */
+pre {
+    background-color: #1e1e1e !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    color: #00ffcc !important;
+    border: 1px solid #333;
+}
+
+/* Footer Styles */
+.stFooter {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 1.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+    border-top: 2px solid #00ffcc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stHeader {
+        font-size: 1.8rem;
+        padding: 1rem;
+    }
+
+    .stSidebar {
+        padding: 1rem;
+    }
+
+    .stButton button {
+        padding: 0.5rem 1rem;
+    }
+}
