@@ -37,3 +37,73 @@
 3. **Download the DeepSeek model:**
    ```bash
    ollama pull deepseek-r1:1.5b
+🚀 Usage
+Start the application:
+
+```bash
+streamlit run app.py
+Configure the model:
+
+Select your preferred model from the sidebar
+
+Toggle dark mode if desired
+
+Start chatting:
+
+Type your coding questions in the chat input
+
+Download code snippets with the download button
+
+Execute code directly in the app (experimental)
+
+⚙️ Configuration
+Customize the app by modifying these environment variables:
+
+```bash
+# In a .env file
+OLLAMA_BASE_URL=http://localhost:11434  # Change if using remote Ollama
+DEFAULT_MODEL=deepseek-r1:1.5b         # Default model to use
+🌟 Available Models
+The app supports these Ollama models:
+
+deepseek-r1:1.5b (default)
+
+deepseek-r1:3b
+
+To add more models:
+
+Pull them with Ollama: ollama pull <model-name>
+
+Add them to the model selection dropdown in app.py
+
+⚠️ Limitations
+Code execution is experimental and runs in a limited sandbox
+
+Complex queries may take longer to process
+
+Model accuracy depends on the selected LLM
+
+🤝 Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository
+
+Create a new branch (git checkout -b feature/your-feature)
+
+Commit your changes (git commit -am 'Add some feature')
+
+Push to the branch (git push origin feature/your-feature)
+
+Open a Pull Request
+
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+🙏 Acknowledgments
+Ollama team for the amazing local LLM runner
+
+LangChain for the AI orchestration framework
+
+DeepSeek for their specialized coding models
+
+
