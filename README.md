@@ -1,7 +1,6 @@
 # 🚀 Askora - AI Pair Programmer
 
-![Demo Screenshot](![Screenshot 2025-05-25 130020](https://github.com/user-attachments/assets/ccc18c6b-cd55-499a-a226-22028b82ad35)
-)
+![Screenshot 2025-05-25 130020](https://github.com/user-attachments/assets/ccc18c6b-cd55-499a-a226-22028b82ad35)
 
 **Askora** is an AI-powered coding assistant with debugging superpowers, built with Ollama and LangChain. It provides real-time coding assistance, debugging help, and code documentation.
 
@@ -30,21 +29,22 @@
 
 2. **Set up the environment**:
    ```bash
-   git clone https://github.com/yourusername/askora.git
+   git clone https://github.com/ashutoshdash-ai/askora.git
    cd askora
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
-Download the DeepSeek model:
+## Download the DeepSeek model:
 
-bash
-ollama pull deepseek-r1:1.5b
-🚀 Usage
-Start the application:
+   ```bash
+   ollama pull deepseek-r1:1.5b
 
-bash
-streamlit run app.py
-Configure the model:
+## 🚀 Usage
+   Start the application:
+
+```bash
+   streamlit run app.py
+##Configure the model:
 
 Select your preferred model from the sidebar
 
@@ -61,8 +61,8 @@ Execute code directly in the app (experimental)
 ⚙️ Configuration
 Customize the app by modifying these environment variables:
 
-bash
-# In a .env file
+```bash
+#In a .env file
 OLLAMA_BASE_URL=http://localhost:11434  # Change if using remote Ollama
 DEFAULT_MODEL=deepseek-r1:1.5b         # Default model to use
 🌟 Available Models
@@ -78,14 +78,14 @@ Pull them with Ollama: ollama pull <model-name>
 
 Add them to the model selection dropdown in app.py
 
-⚠️ Limitations
+## **⚠️ Limitations**
 Code execution is experimental and runs in a limited sandbox
 
 Complex queries may take longer to process
 
 Model accuracy depends on the selected LLM
 
-🤝 Contributing
+## **🤝 Contributing**
 Contributions are welcome! Please follow these steps:
 
 Fork the repository
