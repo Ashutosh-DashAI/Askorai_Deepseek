@@ -20,6 +20,8 @@
 - **LangChain** - AI orchestration framework
 - **Streamlit** - Web application framework
 - **DeepSeek Models** - Specialized coding LLMs
+## For Input: "To check whether the text is palindrome or not"
+![image](https://github.com/user-attachments/assets/bd388133-c505-4b4a-b8f4-a354c38cb556)
 
 ## 📦 Installation
 
