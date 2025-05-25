@@ -40,8 +40,8 @@
 🚀 Usage
 Start the application:
 
-```bash
-streamlit run app.py
+   ```bash
+   streamlit run app.py
 Configure the model:
 
 Select your preferred model from the sidebar
@@ -59,10 +59,10 @@ Execute code directly in the app (experimental)
 ⚙️ Configuration
 Customize the app by modifying these environment variables:
 
-```bash
-# In a .env file
-OLLAMA_BASE_URL=http://localhost:11434  # Change if using remote Ollama
-DEFAULT_MODEL=deepseek-r1:1.5b         # Default model to use
+   ```bash
+   # In a .env file
+   OLLAMA_BASE_URL=http://localhost:11434  # Change if using remote Ollama
+   DEFAULT_MODEL=deepseek-r1:1.5b         # Default model to use
 🌟 Available Models
 The app supports these Ollama models:
 
