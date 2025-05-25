@@ -1,6 +1,7 @@
 # 🚀 Askora - AI Pair Programmer
 
-![Demo Screenshot](demo.gif) <!-- Add a screenshot or GIF later -->
+![Demo Screenshot](![Screenshot 2025-05-25 130020](https://github.com/user-attachments/assets/ccc18c6b-cd55-499a-a226-22028b82ad35)
+)
 
 **Askora** is an AI-powered coding assistant with debugging superpowers, built with Ollama and LangChain. It provides real-time coding assistance, debugging help, and code documentation.
 
@@ -34,14 +35,15 @@
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
-3. **Download the DeepSeek model:**
-   ```bash
-   ollama pull deepseek-r1:1.5b
+Download the DeepSeek model:
+
+bash
+ollama pull deepseek-r1:1.5b
 🚀 Usage
 Start the application:
 
-   ```bash
-   streamlit run app.py
+bash
+streamlit run app.py
 Configure the model:
 
 Select your preferred model from the sidebar
@@ -59,10 +61,10 @@ Execute code directly in the app (experimental)
 ⚙️ Configuration
 Customize the app by modifying these environment variables:
 
-   ```bash
-   # In a .env file
-   OLLAMA_BASE_URL=http://localhost:11434  # Change if using remote Ollama
-   DEFAULT_MODEL=deepseek-r1:1.5b         # Default model to use
+bash
+# In a .env file
+OLLAMA_BASE_URL=http://localhost:11434  # Change if using remote Ollama
+DEFAULT_MODEL=deepseek-r1:1.5b         # Default model to use
 🌟 Available Models
 The app supports these Ollama models:
 
@@ -105,5 +107,3 @@ Ollama team for the amazing local LLM runner
 LangChain for the AI orchestration framework
 
 DeepSeek for their specialized coding models
-
-
